@@ -1,6 +1,8 @@
 ## simple docker container for waking up devices through [wolweb](https://github.com/sameerdhoot/wolweb) 
 
 ### quickstart
+first remove the /w/ from wolweb webserver
+
 create a directory for mikroBudzik and cd into it
 curl example config and docker compose
 ```bash
