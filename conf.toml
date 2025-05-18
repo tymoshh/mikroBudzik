@@ -1,0 +1,3 @@
+wolwebHost = "127.0.0.1:9080"
+deviceName = "wolwebDeviceId"
+wakeTime = 14

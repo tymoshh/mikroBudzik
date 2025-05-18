@@ -1,0 +1,13 @@
+services:
+  mikrobudzik:
+    image: tymosh83/mikrobudzik
+    container_name: mikrobudzik
+    volumes:
+      - ./conf.toml:/app/conf.toml:ro
+      - /etc/localtime:/etc/localtime:ro
+    networks:
+      - mikrobudzik-net
+
+networks:
+  mikrobudzik-net:
+    name: mikrobudzik-net
